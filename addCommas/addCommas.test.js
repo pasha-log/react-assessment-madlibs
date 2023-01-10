@@ -34,4 +34,10 @@ describe("#addCommas", () => {
   test("works for 423638", () => {
     expect(addCommas(423638)).toBe("423,638");
   })
+  test("works for 12345.678", () => {
+    expect(addCommas(12345.678)).toBe("12,345.678");
+  })
+  test("works for -3141592.65", () => {
+    expect(addCommas(-3141592.65)).toBe("-3,141,592.65");
+  })
 });
