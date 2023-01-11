@@ -2,10 +2,6 @@
 
 <img src='./MadLibs/public/madlibs.png' alt=''>
 
-# Try it out:
-
-[MadLibs]()
-
 ## Tools used: 
 
 * React.js
